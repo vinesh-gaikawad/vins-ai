@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
   return {
-    base: '/<vins-ai-web>/',   // ⭐ GitHub Pages के लिए सबसे ज़रूरी लाइन
+    base: '/<vins-ai>/',   // ⭐ GitHub Pages के लिए सबसे ज़रूरी लाइन
 
     server: {
       port: 3000,
