@@ -1,5 +1,6 @@
 import React from 'react';
 import * as Icons from '../constants/icons';
+import VinsAI from '@/assets/img/vins-ai.jpg';
 
 const Hero = () => {
 
@@ -41,7 +42,7 @@ const Hero = () => {
           <div className="relative">
              <div className="relative z-10 aspect-video rounded-2xl overflow-hidden border-2 border-white/10 flex">
                 <div className="w-auto h-full overflow-hidden">
-                    <img src="../assets/img/vins-ai.jpg" alt="Before editing" className="w-full h-full object-cover filter "/>
+                    <img src={VinsAI} alt="Before editing" className="w-full h-full object-cover filter "/>
                 </div>
                 {/* <div className="w-1/2 h-full overflow-hidden">
                     <img src="../assets/img/vins-after.jpg" alt="After editing" className="w-full h-full object-cover filter saturate-150"/>
